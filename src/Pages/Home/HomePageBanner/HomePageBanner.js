@@ -22,14 +22,13 @@ const HomePageBanner = () => {
                     </div>
                     <h3 className="text-3xl uppercase font-bold  mt-10">I am Nazmul Hasan</h3>
 
-                    <h2 className='text-2xl'>
-                        A
-                        <Typical
+                    <div className='text-2xl mt-5 flex gap-3'>
+                        A <Typical
                             loop={Infinity}
-                            wrapper="b"
-                            steps={[' Full-Stack Developer', 1000, ' MERN-Stack Develop', 1000, ' Professional Coder', 1000]}
+                            wrapper="h1"
+                            steps={[' Full-Stack Developer', 2000, ' MERN-Stack Develop', 2000, ' Professional Coder', 2000]}
                         />
-                    </h2>
+                    </div>
 
                     <h5 className="text-xl uppercase  font-bold  my-10"> </h5>
                     <div className="mt-5 ">
