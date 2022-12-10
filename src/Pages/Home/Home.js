@@ -4,6 +4,7 @@ import './HomePageBanner/HomePageBannser.css'
 import HomePageAbout from './HomePageAbout/HomePageAbout';
 import HomePageServices from './HomePageServices/HomePageServices';
 import HomePageProject from './HomePageProject/HomePageProject';
+import HomePageContact from './HomePageContact/HomePageContact';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <HomePageAbout />
             <HomePageServices />
             <HomePageProject />
+            <HomePageContact />
 
         </div>
     );

@@ -5,7 +5,8 @@ import PrimaryButton from '../../Shared/PrimaryButton/PrimaryButton';
 const HomePageAbout = () => {
     const link = `https://drive.google.com/file/d/1SUAB9ZSSEFyyPuuzz9RTfTXVrzPvC84m/view?usp=share_link`;
     return (
-        <section className=' mt-40'>
+        <section className=' mt-40' data-aos="zoom-out" data-aos-offset="500"
+            data-aos-easing="ease-in-sine">
             <div className="hero">
                 <div className="hero-content flex lg:gap-20 sm:justify-center lg:justify-between ">
                     <img src={aboutImg} className="w-1/2 rounded-lg hidden lg:block" alt='' />

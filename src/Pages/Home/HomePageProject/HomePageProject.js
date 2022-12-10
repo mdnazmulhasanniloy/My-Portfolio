@@ -18,7 +18,8 @@ const HomePageProject = () => {
 
             <div className="w-4/5 mx-auto" >
                 <div className="mt-16 grid sm:grid-cols-3 gap-10">
-                    <div className="p-8 rounded-lg text-gray-600 bg-[#f9f9fd] shadow-xl" data-aos="fade-left">
+                    <div className="p-8 rounded-lg text-gray-600 bg-[#f9f9fd] shadow-xl" data-aos="fade-left" data-aos-offset="500"
+                        data-aos-easing="ease-in-sine">
                         <div className='scrollImageScreen'>
                             <div className='scrollImage'>
                                 <img src={foodiesThumbnail} alt="" height={600} width={400} />
@@ -50,7 +51,7 @@ const HomePageProject = () => {
 
 
 
-                    <div className="p-8 rounded-lg text-gray-600 bg-[#f9f9fd] shadow-xl" data-aos="fade-left">
+                    <div className="p-8 rounded-lg text-gray-600 bg-[#f9f9fd] shadow-xl" data-aos="fade-left" data-aos-offset="500" data-aos-easing="ease-in-sine">
                         <div className='scrollImageScreen'>
                             <div className='scrollImage'>
                                 <img src={EasyLearnerThumbnail} alt="" height={600} width={400} />
@@ -80,7 +81,8 @@ const HomePageProject = () => {
                     </div>
 
 
-                    <div className="p-8 rounded-lg text-gray-600 bg-[#f9f9fd] shadow-xl" data-aos="fade-left">
+                    <div className="p-8 rounded-lg text-gray-600 bg-[#f9f9fd] shadow-xl" data-aos="fade-left" data-aos-offset="500"
+                        data-aos-easing="ease-in-sine">
                         <div className='scrollImageScreen'>
                             <div className='scrollImage'>
                                 <img src={MobileGhorTHumbanil} alt="" height={600} width={400} />

@@ -3,7 +3,7 @@ import React from 'react';
 const Portfolio = () => {
     return (
         <div>
-            <h1>this is Portfolio page</h1>
+            <h1 className='text-5xl text-center mt-36 text-red-600'>Portfolio Page Coaming Soon</h1>
         </div>
     );
 };
